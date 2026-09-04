@@ -14,7 +14,7 @@ const currentTime = new Date();
 const diff = currentTime - newYearTime;
 
 const y = Math.floor(diff / 1000 / 60 / 60/24/365.2428) ;
-const mo = Math.floor(diff / 1000 / 60 / 60/24/365.2428 ) * 12 ;
+const mo = Math.floor(diff / 1000 / 60 / 60/24/365.2428 * 12)  ;
 const d = Math.floor(diff / 1000 / 60 / 60 /24) ;
 
 
