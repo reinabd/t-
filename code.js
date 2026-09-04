@@ -5,7 +5,7 @@ const seconds = document.getElementById('seconds');
 
 const currentYear = new Date().getFullYear();
 
-const newYearTime = new Date(` October 08 , 2012 22:23:00 
+const newYearTime = new Date(` May 18 , 2026 00:00:00 
 `);
 
 // Update countdown time
@@ -18,7 +18,6 @@ const mo = Math.floor(diff / 1000 / 60 / 60/24/365.2428 ) * 12 ;
 const d = Math.floor(diff / 1000 / 60 / 60 /24) ;
 
 
-const h = Math.floor(diff / 1000 / 60 / 60) ;
 
 years.innerHTML = y;
 
@@ -26,7 +25,6 @@ months.innerHTML = mo < 10 ? '0' + mo : mo;
 
 days.innerHTML = d < 10 ? '0' + d : d;
 
-hours.innerHTML = h < 10 ? '0' + h : h;
 
 
 }
